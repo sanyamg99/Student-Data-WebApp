@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Data</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <!--JQuery UI dependencies-->
+        <link rel="stylesheet" href="jquery-ui.min.css">
+        <script src="jquery.js"></script>
+        <script src="jquery-ui.min.js"></script>
+
+        <link rel="icon" type="image/gif/png" href="./images/student_logo.png">
+
+        <script src="tables.js"></script>
+
+    </head>
+
+    <body> 
+
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <br>
+                    <li>
+                        <a href="stats.html" class="font-details" style="outline:none">
+                            <span class="font-details">Dashboard</span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="tables.html" class="font-details" style="outline:none">
+                            <span class="font-details">Data</span>
+                        </a>
+                        </li>
+                        <hr>
+                        <li>
+                        <a href="guide.html" class="font-details" style="outline:none">
+                            <span class="font-details">Guide</span>
+                        </a>
+                    </li>
+                    <hr>
+                </ul>
+                
+            </div>
+            <!-- /#sidebar-wrapper -->
+        
+                <!-- Page Content -->
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="dtu">
+                                        <label class="form-check-label" for="dtu">
+                                            DTU
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" id="nsit">
+                                        <label class="form-check-label" for="nsit">
+                                            NSIT
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="k17">
+                                            <label class="form-check-label" for="k17">
+                                                2K17
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="k18">
+                                            <label class="form-check-label" for="k18">
+                                                2K18
+                                            </label>
+                                    </div>
+                            </div>
+                            
+                            <div class="col-lg-1">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="co">
+                                            <label class="form-check-label" for="co">
+                                                CO
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="it">
+                                            <label class="form-check-label" for="it">
+                                                IT
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="se">
+                                            <label class="form-check-label" for="se">
+                                                SE
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="mc">
+                                            <label class="form-check-label" for="mc">
+                                                MC
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="ec">
+                                            <label class="form-check-label" for="ec">
+                                                EC
+                                            </label>
+                                            <br>
+                                    </div>
+                            </div>
+                            <div class="col-lg-1">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="ee">
+                                            <label class="form-check-label" for="ee">
+                                                EE
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="ep">
+                                            <label class="form-check-label" for="ep">
+                                                EP
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="me">
+                                            <label class="form-check-label" for="me">
+                                                ME
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="pe">
+                                            <label class="form-check-label" for="pe">
+                                                PE
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="ae">
+                                            <label class="form-check-label" for="ae">
+                                                AE
+                                            </label>
+                                            <br>
+                                    </div>
+                            </div>
+                            <div class="col-lg-1">
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="ce">
+                                            <label class="form-check-label" for="ce">
+                                                CE
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="ps">
+                                            <label class="form-check-label" for="ps">
+                                                PS
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="bt">
+                                            <label class="form-check-label" for="bt">
+                                                BT
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="en">
+                                            <label class="form-check-label" for="en">
+                                                EN
+                                            </label>
+                                            <br>
+                                            <input class="form-check-input" type="checkbox" id="mpae">
+                                            <label class="form-check-label" for="mpae">
+                                                MPAE
+                                            </label>
+                                            <br>
+                                    </div>
+                            </div>
+                            <div class="col-lg-1">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="ice">
+                                        <label class="form-check-label" for="ice">
+                                            ICE
+                                        </label>
+                                        <br>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        <br>
+
+                        <div class="row">
+                             <!-- Button -->
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary" id="filter-button" style="text-align:center;">Filter</button>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <!-- set up the modal to start hidden and fade in and out -->
+                        <div id="alert-div" class="alert alert-success" style="display:none">
+                        </div> 
+            
+                        <!--Loader Text-->
+                        <p id="loader" style="display:none;font-family: 'Courier New', Courier, monospace;" class="text-center font-weight-bold">Filtering ...</p>
+                        <br>
+
+                        <!-- Number of entries -->
+                        <p id="entry" style="font-weight:bold;font-size:15pt;font-family:'Courier New', Courier, monospace;">0 entries found.</p>
+                        <br>
+
+                        <!--Dialog Box UI-->
+                        <div id = "dialog" title = "Dialog Title goes here...">
+                        </div>
+                        <!--Dialog Box UI-->
+                        <div id = "dialog-2" title = "Dialog Title goes here...">
+                            <!-- By default the value of textarea is the html template chosen -->
+                            <textarea name="comment[body]" rows="1" cols="50" wrap="physical" id="subtxt" placeholder="Enter subject"></textarea>
+                            <textarea name="comment[body]" rows="12" cols="50" wrap="physical" id="htmltxt">Demo text.</textarea>
+                        </div>
+                       
+                         <!-- Table -->
+                        <table class="table table-striped" id="table">
+                                <thead>
+                                    <tr class="bg-dark">
+                                        <th><button id="name" class="btn btn-success" style="font-weight:bold;">Name</button></th>
+                                        <th><button id="college" class="btn btn-success" style="font-weight:bold;">College</button></th>
+                                        <th><button id="branch" class="btn btn-success" style="font-weight:bold;">Branch</button></th>
+                                        <th><button id="batch" class="btn btn-success" style="font-weight:bold;">Batch</button></th>
+                                        <th><button id="email" class="btn btn-success no-click" style="font-weight:bold;">Email</button></th>
+                                        <th><button id="phone" class="btn btn-success no-click" style="font-weight:bold;">Phone</button></th>    
+                                    </tr>
+                                </thead>
+                            </table> 
+                        </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+        </div>
+
+    </body> 
+</html>

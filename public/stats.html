@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Dashboard</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/gif/png" href="./images/student_logo.png">
+    </head>
+
+    <body> 
+
+        <div id="wrapper">
+
+                <!-- Sidebar -->
+                <div id="sidebar-wrapper">
+                    <ul class="sidebar-nav">
+                        <br>
+                        <li>
+                            <a href="stats.html" class="font-details" style="outline:none">
+                               <span class="font-details">Dashboard</span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="tables.html" class="font-details" style="outline:none">
+                                <span class="font-details">Data</span>
+                            </a>
+                         </li>
+                         <hr>
+                         <li>
+                            <a href="guide.html" class="font-details" style="outline:none">
+                                <span class="font-details">Guide</span>
+                            </a>
+                        </li>
+                        <hr>
+                    </ul>
+                    
+                </div>
+                <!-- /#sidebar-wrapper -->
+        
+                <!-- Page Content -->
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card" style="width: 100%; ">
+                                    <div class="card-body bg-primary">
+                                        <h5 class="card-title text-center" style="color:#fff">College Statistics</h5>
+                                    </div>
+                                    <img src="./images/College-distr.png" class="card-img">
+                                </div>                                     
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body bg-primary">
+                                            <h5 class="card-title text-center" style="color:#fff">Batch Statistics</h5>
+                                        </div>
+                                        <img src="./images/Batch-distr.png" class="card-img">
+                                </div>                
+                            </div>
+                        </div>
+                          
+                        <br>
+                        <hr>
+                        <br>
+
+                        <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-6">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body bg-primary">
+                                            <h5 class="card-title text-center" style="color:#fff">Branch Statistics</h5>
+                                        </div>
+                                        <img src="./images/Branch-distr.png" class="card-img-top">
+                                    </div>                                     
+                                </div>
+                                <div class="col-lg-3"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+        
+            </div>
+
+    </body>
+
+</html>
