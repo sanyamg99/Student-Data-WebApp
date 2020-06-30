@@ -1,6 +1,6 @@
 const sequelize=require('sequelize');
 
-const db=new sequelize('pproject','root','260199',{
+const db=new sequelize('pproject','root','123456',{
     dialect:'mysql'
 });
 
